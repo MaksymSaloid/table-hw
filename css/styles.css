@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*---------------------------*/
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.header {
+  background: grey;
+  text-align: center;
+  padding: 20px 0;
+}
+.header a {
+  font-size: 30px;
+  text-decoration: none;
+  color: antiquewhite;
+}
+.main_tabel {
+  width: 100%;
+  margin: 20px 0;
+  border-style: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px #e4e4ef;
+}
+.main_tabel th,
+.main_tabel td {
+  border-top: 1px solid #e4e4ef;
+}
+.user,
+.email {
+  width: 400px;
+}
+.phone {
+  width: 158px;
+}
+.main_tabel th {
+  padding: 18px 16px;
+  text-align: left;
+  font-weight: 700;
+}
+.main_tabel td {
+  font-size: 14px;
+  padding: 8px 16px;
+  vertical-align: middle; /*выравнивание строки по центру*/
+}
+.text_center {
+  text-align: center;
+}
+.main_tabel td p + p {
+  font-size: 12px;
+  color: #808080;
+  line-height: 20px;
+}
+.btn {
+  color: #605dec;
+  background: #ededfe;
+  padding: 8px 24px;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 12px;
+}
+.btn.green {
+  color: #31aa27;
+  background: een #ebf6eb;
+}
+.btn.orange {
+  color: #e99518;
+  background: #fff4e4;
+}
+.btn.red {
+  color: #f93232;
+  background: #fff0f0;
+}
+.btn.clear {
+  color: #bdbcdb;
+  background: #f8f9fb;
+}
+.mondriana {
+  margin: 20px auto;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border: 1px solid black;
+}
+
+.mondriana td {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+.color1,
+.color28 {
+  background: #808080;
+}
+.color3,
+.color4,
+.color5,
+.color8,
+.color14,
+.color22,
+.color23 {
+  background: #647e43;
+}
+.color6 {
+  background: #50d716;
+}
+.color7,
+.color24 {
+  background: rgb(19, 55, 19);
+}
+.color9 {
+  background: rgb(255, 234, 0);
+}
+.color19 {
+  background: #281ee1;
+}
