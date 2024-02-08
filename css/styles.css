@@ -136,7 +136,7 @@ body {
   margin: 0 auto;
 }
 .header {
-  background: grey;
+  background: rgb(130, 130, 130);
   text-align: center;
   padding: 20px 0;
 }
